@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(218, 214, 214);
+}
+
+.container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
+}
+.headlines {
+  margin-top: 40px;
+  display: block;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: auto;
+  width: 500px;
+  text-align: center;
+  margin-bottom: 50px;
+  width: 100%;
+  padding-top: 30px;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(59, 59, 59);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.headline2 {
+  font-size: 30px;
+  font-weight: bold;
+  opacity: 0.7;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: relative;
+  top: -15px;
+}
+
+p {
+  text-align: center;
+  opacity: 0.6;
+  font-size: 15px;
+}
+
+.title {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.text {
+  height: 50px;
+  font-size: 15px;
+  padding-top: 30px;
+  opacity: 0.8;
+  color: gray;
+}
+
+.logo {
+  height: 55px;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-left: 190px;
+}
+
+.Box1 {
+  width: 250px;
+  height: 190px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 630px;
+  position: absolute;
+  border-top: red 4px solid;
+  background-color: white;
+}
+
+.Box2 {
+  width: 250px;
+  height: 190px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 5px;
+  border-top: blue 4px solid;
+  background-color: white;
+}
+
+.Box3 {
+  width: 250px;
+  height: 190px;
+
+  position: absolute;
+
+  padding: 20px;
+  border-radius: 5px;
+  margin: 15px;
+  margin-left: 630px;
+  align-content: center;
+  border-top: yellow 4px solid;
+  background-color: white;
+  position: relative;
+  right: 310px;
+}
+
+.Box4 {
+  border-top: 5px solid aqua;
+  background-color: white;
+  width: 250px;
+  height: 190px;
+  padding: 20px;
+  position: relative;
+  left: 1000px;
+  bottom: 395px;
+}
+
+.Box1,
+.Box2,
+.Box3,
+.Box4 {
+  border-radius: 10px;
+}
